@@ -1,0 +1,13 @@
+calendars:
+  - name: Tom
+    models:
+      - name: normal
+        days: >
+          ++++ ++++ ++++ ++++ ++++ ++++ ++++
+          ---- ---- ---- ---- ---- ---- ----
+    periods:
+      "2025-01-01": normal
+      "2025-12-31": _end_
+    exceptions: []
+
+important_days: []
